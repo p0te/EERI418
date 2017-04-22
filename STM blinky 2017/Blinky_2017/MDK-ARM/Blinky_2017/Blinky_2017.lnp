@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"blinky_2017\stm32f4xx_hal_flash.o"
+"blinky_2017\stm32f4xx_hal_cortex.o"
+"blinky_2017\stm32f4xx_hal_tim_ex.o"
+"blinky_2017\stm32f4xx_hal_pwr.o"
+"blinky_2017\stm32f4xx_hal_gpio.o"
+"blinky_2017\stm32f4xx_hal_flash_ex.o"
+"blinky_2017\stm32f4xx_hal.o"
+"blinky_2017\stm32f4xx_hal_tim.o"
+"blinky_2017\stm32f4xx_hal_flash_ramfunc.o"
+"blinky_2017\stm32f4xx_hal_dma.o"
+"blinky_2017\stm32f4xx_hal_pwr_ex.o"
+"blinky_2017\stm32f4xx_hal_rcc_ex.o"
+"blinky_2017\stm32f4xx_hal_dma_ex.o"
+"blinky_2017\stm32f4xx_hal_rcc.o"
+"blinky_2017\system_stm32f4xx.o"
+"blinky_2017\main.o"
+"blinky_2017\stm32f4xx_hal_msp.o"
+"blinky_2017\stm32f4xx_it.o"
+"blinky_2017\startup_stm32f429xx.o"
+--library_type=microlib --strict --scatter "Blinky_2017\Blinky_2017.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Blinky_2017.map" -o Blinky_2017\Blinky_2017.axf

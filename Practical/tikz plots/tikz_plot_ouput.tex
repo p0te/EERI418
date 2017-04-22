@@ -1,0 +1,9 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}
+	\begin{axis}
+		\addplot table [x=a,y=c,col sep=semicolon]{/Practical_Measurements/Motor_shut_off.csv}
+	\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,7 @@
+set terminal latex
+set output "motor_start_plot.tex"
+set title "Plot of armature voltage and RPM over time"
+unset key
+set xlabel "Time"
+set ylabel "\\rotatebox{90}{Voltage/RPM}"
+plot  'Motor_start_combined_smoothed.tsv' using 1:2 with lines , 'Motor_start_combined_smoothed.tsv' using 1:($3*1000) with lines

@@ -1,0 +1,7 @@
+set terminal latex
+set output "motor_shutoff_plot.tex"
+set title "Plot of armature voltage and RPM over time after motor has been shut down"
+unset key
+set xlabel "Time"
+set ylabel "\\rotatebox{90}{Voltage/RPM}"
+plot  'Motor_shut_off_voltage_smoothed.tsv' using 1:2 with lines , 'Motor_shut_off_rpm_smoothed.tsv' using 1:($2*1000) with lines

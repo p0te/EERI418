@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"blinky_itm\startup_stm32f429xx.o"
+"blinky_itm\stm32f4xx_hal_rcc_ex.o"
+"blinky_itm\stm32f4xx_hal_rcc.o"
+"blinky_itm\stm32f4xx_hal_pwr.o"
+"blinky_itm\stm32f4xx_hal_flash_ramfunc.o"
+"blinky_itm\stm32f4xx_hal_dma_ex.o"
+"blinky_itm\stm32f4xx_hal_flash.o"
+"blinky_itm\stm32f4xx_hal_dma.o"
+"blinky_itm\stm32f4xx_hal_pwr_ex.o"
+"blinky_itm\stm32f4xx_hal_gpio.o"
+"blinky_itm\stm32f4xx_hal.o"
+"blinky_itm\stm32f4xx_hal_cortex.o"
+"blinky_itm\stm32f4xx_hal_flash_ex.o"
+"blinky_itm\stm32f4xx_hal_tim.o"
+"blinky_itm\stm32f4xx_hal_tim_ex.o"
+"blinky_itm\stm32f4xx_hal_msp.o"
+"blinky_itm\stm32f4xx_it.o"
+"blinky_itm\main.o"
+"blinky_itm\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "blinky_itm\blinky_itm.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "blinky_itm.map" -o blinky_itm\blinky_itm.axf

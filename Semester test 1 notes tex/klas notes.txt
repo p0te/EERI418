@@ -1,0 +1,10 @@
+-08:30
+-1 Hour
+-1st 3 Study units
+-state variables
+-observers
+-derive a mathematical model(he will tell us what type of system)
+-determine the z transform of a series
+-solve a difference eqn
+-discrete state space model
+-discrete signal flow diagrams

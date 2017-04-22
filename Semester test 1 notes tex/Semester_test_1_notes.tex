@@ -1,0 +1,169 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{ tipa }
+\begin{document}
+\section{STUDY UNIT 1: State variable feedback systems}
+\subsubsection{Sums} % (fold)
+E11.3; E11.5; P11.1; P11.14; P11.16; AP11.1; AP11.2
+
+% subsubsection sums (end)
+\subsection{Controllability} % (fold)\
+\label{sub:controllability}
+{\bf Formal Defenition of controllability:}\emph{A system is completely controllable if there exists an unconstrained control u(t) that can transfer any initial state $x(t_0)$ To any other desired location $x(t)$ in a finite time $t_0 \leq t \leq T$}\\
+Controllability and observability are requirements for a system, so that all the poles of the colesd loop system can be arbitrarily placed in the complex plane.\\
+For the system:
+\begin{align*}
+\dot{\mathbf{x}} = \mathbf{Ax+B}u	
+\end{align*}
+we can determine the controllability using the algebraic condition:
+\begin{align*}
+rank[\mathbf{B \quad AB \quad A^2B \ldots A^{n-1}B }] = n	
+\end{align*}
+Where $\mathbf{A}$ is a $n \times n$ matrix and $\mathbf{B}$ is an $n \times 1$ matrix for single input systems, or $n \times m$ for multi input systems.
+For the case of a single input single output system: define
+\begin{align*}
+\mathbf{P_c = [\mathbf{B \quad AB \quad A^2B \ldots A^{n-1}B }]}	
+\end{align*}
+Which is an $n \times n$ matrix. If the determinanat of $\mathbf{P_c}$ is nonzero, the system is controllable\\
+
+
+% subsection controllability (end)
+\subsection{Observability} % (fold)
+\label{sub:observability}
+{\bf Formal Defenition of observability:}\emph{A system is completely observable if and only if there exists a finite time T such that the intial state $x(0)$ can be determined from the observation history $y(t)$ given the control $u(t), 0 \leq t \leq T$}\\
+Considder the single-input, single-output system:
+\begin{align*}
+\mathbf{\dot{x} = Ax +B}u \quad and \quad y = \mathbf{Cx}	
+\end{align*}
+Where $\mathbf{C}$ is a $1 \times n$ row vector and $\mathbf{x}$ is a $n \times 1$ column vector. The system is completely observable when the determinant of the {\bf observability matrix$\mathbf{P_O}$} is nonzero when:
+\begin{align*}
+\mathbf{P_O} = \left[ 	\begin{matrix}
+ 		\mathbf{C}\\\mathbf{CA}\\ \vdots \\\mathbf{CA^{n-1}}
+ 	\end{matrix}
+ 	\right]
+ \end{align*} 
+ Which is an $n \times n$ matrix
+
+
+
+% subsection observability (end)
+\subsection{Pole Placement} % (fold)
+\label{sub:pole_placement}
+Remember from algerbra 2 that if a set of differential equations in the form $\mathbf{x'} = A\mathbf{x}$ then the time response of the system is given by $\mathbf{x}(t) = \mathbf{v}e^{\lambda t}$
+% subsection ploe_placement (end)
+\subsection{Ackerman's equation} % (fold)
+\label{sub:ackerman_s_equation}
+Way to calculate K with less variables. Set $u = -k\mathbf{x}$ and let $q(\lambda)$ be the desired charachteristic eqn. (as dictated by P.O ans Ts) then:
+\begin{align*}
+	\mathbf{k} &= [0 1 \dots 1]\mathbf{P}^-1q(A);
+\end{align*}
+Type A into calculator and apply q(A). Multiply [0 1] first since this is easier
+% subsection ackerman_s_equation (end)
+\section{STUDY UNIT 2: Mathemetical models of simple linear systems}
+\subsection{sums} % (fold)
+1-1; 1-2; 1-3; 1-4; 1-6; 1-7; 1-12
+% subsection sums (end)
+\section{STUDY UNIT 3: The Z transform}
+\subsection{sums} % (fold)
+2-1; 2-2; 2-3; 2-4 ; 2-6; 2-7; 2-9a en c; 2-11; 2-12; 2-14; 2-16; 2-17; 2-18; 2-19; 2-23; 2-24; 2-25; 2-28; 2-30; 2-31; 2-32
+% subsection sums (end)
+\subsection{Refresher on Mason's rule}
+
+\verb|https://en.wikipedia.org/wiki/Mason's_gain_formula}|
+Type this out if you have some time later\dots
+\subsection{Discrete Time} % (fold)
+\label{sub:discrete_time}
+
+% subsection discrete_time (end)
+\subsection{refresher on partial fractions}
+\begin{align*}
+	T(z) &=  \frac{z}{(z+a)(z+b)(z+c)}\\
+	T(z) &= \frac{A}{z+a} + \frac{B}{z+b} + \frac{C}{z+c}\\
+	A &=  \frac{z}{(z+b)(z+c)} \bigg\rvert_{z=-a}\\
+	B &=  \frac{z}{(z+a)(z+c)} \bigg\rvert_{z=-b}\\
+	C &=  \frac{z}{(z+a)(z+b)} \bigg\rvert_{z=-c}\\
+\end{align*}
+\subsection{Properties of the Z transform}
+\label{sub:Properties of the Z transform}
+\subsubsection{Additition and subtraction}
+\begin{align*}
+	\text{\textctyogh}[e_1(k) \pm e_2(k)] = E_1(z) \pm E_2(Z)\\
+\end{align*}
+\subsubsection{Multiplication by a constant}
+\begin{align*}
+	\text{\textctyogh}[ae(k)] = a\zeta[e(k)] = aE(z)\\
+\end{align*}
+\subsubsection{Real translation}
+\begin{align*}
+	\text{\textctyogh}[e(k-n)u(k-n)] = z^{-n} E(z)\\
+\end{align*}
+\subsubsection{Complex translation}
+\begin{align*}
+	\text{\textctyogh}[\epsilon^{ak}e(k)] = E(z\epsilon^{-a})
+\end{align*}
+\subsubsection{Initial Value}
+\begin{align*}
+	e(0) = \lim_{z \to \infty}E(z)
+\end{align*}
+\subsubsection{Final Value}
+\begin{align*}
+	\lim_{n \to \infty} = \lim_{z \to 1}(z-1)E(z)
+\end{align*}
+
+
+
+% subsection properties_of_the_z_transform (end)
+\subsection{Difference equations} % (fold)
+NOTE!!!! study the following methods, power series was asked in ST1.
+\begin{itemize}
+	\item Classical approach
+	\item sequential procedure
+	\item Z-transform
+		\subitem Power series method
+		\subitem Partial Fraction Method
+		\subitem Inversion formula Method
+		\subitem Discrete convolution
+\end{itemize}
+\label{sub:difference_equations}
+\begin{itemize}
+	\item The unit step function transforms to $\frac{z}{z-1} $
+	\item The unit step function is delayed in one example in the textbook and transforms to $\frac{z}{z-1} $:
+		\begin{align*}
+			Z\{\delta(k-1) \} &= z^{-1}\frac{z}{z-1}\\
+			Z\{\delta(k-1) \} &= \frac{1}{z-1}\\
+		\end{align*}
+	\item most other transforms are in the form $c\frac{z}{z-a}$ and they transform to $ca^k$ 
+	\item The transform of a shifted series is in the form:
+		\begin{align*}
+			Z\{e(k+n)u(k)\} &= z^n\left[E(Z) - \sum_{k=0}^{n-1}e(k)z^{-k}\right]\\
+			&e.g.\\
+			Z\{e(k-2)u(k)\} &= z^{-2}E(z) - ze(1) - ze(0)\\
+		\end{align*}
+	\item sometimes the initial conditions are made zero, which makes:
+		\begin{align*}
+	$
+	$
+			Z\{e(k+n)u(k)\} &=z^nE(z)\\
+			&also:\\
+			Z\{e(k+n)u(k+n)\} &=z^nE(z)\\
+			&\text{Regardless of initial conditions}
+		\end{align*}
+	\item In some cases zero initial conditions are assuumed, but I may be confused		
+	\item So:
+	\subitem Compute Z transforms 
+	\subitem Factorize and isolate the appropriate function (usually X(z) or Y(z))
+	\subitem Apply partial fractions 
+	\subitem Compute inverse Z transforms to get a function of k
+\end{itemize}
+% subsection difference_equations (end)
+\subsection{Simulation diagram, signal flow diagrams \& State models} % (fold)
+\label{sub:simulation_diagram_signal_flow_diagrams_state_models}
+Basically the same as in control 1. The symbol `T` means a delay: $x(k) \to [T] \to x(k-1)$ Mason's rule can be applied and state space models are derived in the same way.
+% subsection simulation_diagram_signal_flow_diagrams_state_models (end)
+\subsection{Transfer Functions} % (fold)
+\label{sub:transfer_functions}
+Trasfer functions are a function of Z, and can be derived from the difference equation using the Z transform. In signal flow diagrams, [T] besomes $\frac{1}{z}$
+
+% subsection transfer_functions (end)
+\end{document}
+
