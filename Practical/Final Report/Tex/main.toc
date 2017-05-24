@@ -1,0 +1,19 @@
+\select@language {american}
+\vspace {-\cftbeforepartskip }
+\select@language {american}
+\contentsline {chapter}{Acronyms}{iv}{dummy.4}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Literature Study}}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Modeling the DC Motor}{2}{section.2.1}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Modeling}}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Measuring the Mechanical Time constant}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Determining K and comparing the model with the results}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}Designing the PID}{5}{section.3.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Controller Design}}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Controller Simulation}}{8}{chapter.5}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Results}}{9}{chapter.6}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Discussion of results}}{10}{chapter.7}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{11}{chapter.8}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Appendix A: One Page Experiment Design}}{13}{chapter.9}
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Appendix B: Source code Listings}}{14}{chapter.10}
+\contentsline {section}{\numberline {10.1}Python Average Filter}{14}{section.10.1}

@@ -1,0 +1,34 @@
+\chapter{Appendix A: One Page Experiment Design}
+\label{apx:A}
+
+\begin{table}[h]
+\centering
+\caption{Values to be measured/calculated}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Variables and parameters & Symbol and unit                          \\ \midrule
+Armature Volatage        & $v_a(t)${[}V{]}                          \\
+Armature Current         & $i_a(t)${[}A{]}                          \\
+Motor Speed              & $\omega(t) = \dot{\theta}(t)${[}rad/s{]} \\
+Armature Resistance      & $R_a$ {[}$\Omega${]}                     \\ \bottomrule
+\end{tabular}
+\end{table}
+
+The purpose of this lab session is to design experiments to determine the time constants $\tau_a$and $\tau_l$, where:\\
+\begin{align*}
+\tau_a & = \frac{L_a}{R_a} \\
+\tau_l & = \frac{R_aJ}{R_ab+K_bK_m} 
+\end{align*}
+This will be done using two experiments:
+\begin{itemize}
+	\item First, the motor's speed will be measured as it slows down. This makes it possible to determine the moment of innertia and the mechanical time constant
+	\item Second, the Speed will be realted to different values for the armature current and voltage.
+\end{itemize}
+These values will be digitally captured and used to determine the nessecary parameters.
+
+\chapter{Appendix B: Source code Listings}
+\label{apx:B}
+\section{Python Average Filter}
+
+\lstinputlisting{code_listings/smooth.py}
