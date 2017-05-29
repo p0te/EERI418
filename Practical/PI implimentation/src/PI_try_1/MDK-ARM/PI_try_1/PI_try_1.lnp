@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"pi_try_1\stm32f4xx_it.o"
+"pi_try_1\stm32f4xx_hal_msp.o"
+"pi_try_1\main.o"
+"pi_try_1\stm32f4xx_hal_rcc_ex.o"
+"pi_try_1\stm32f4xx_hal_pwr.o"
+"pi_try_1\stm32f4xx_hal_flash_ramfunc.o"
+"pi_try_1\stm32f4xx_hal_pwr_ex.o"
+"pi_try_1\stm32f4xx_hal_flash.o"
+"pi_try_1\stm32f4xx_hal_cortex.o"
+"pi_try_1\stm32f4xx_hal_rcc.o"
+"pi_try_1\stm32f4xx_hal_dma.o"
+"pi_try_1\stm32f4xx_hal_gpio.o"
+"pi_try_1\stm32f4xx_hal_adc_ex.o"
+"pi_try_1\stm32f4xx_hal_tim.o"
+"pi_try_1\stm32f4xx_hal.o"
+"pi_try_1\stm32f4xx_hal_tim_ex.o"
+"pi_try_1\stm32f4xx_hal_flash_ex.o"
+"pi_try_1\stm32f4xx_hal_dma_ex.o"
+"pi_try_1\stm32f4xx_hal_adc.o"
+"pi_try_1\system_stm32f4xx.o"
+"pi_try_1\startup_stm32f429xx.o"
+--library_type=microlib --strict --scatter "PI_try_1\PI_try_1.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PI_try_1.map" -o PI_try_1\PI_try_1.axf

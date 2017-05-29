@@ -1,0 +1,22 @@
+
+From the data in the previous practical, K was found to be 86.0213 and $\tau$ was 136.0407 by the amount of time it took to reach 67% of the steady state temperature. The transfer function was:
+ \begin{align}
+ G(s) &= \frac{Y(s)}{C(s)}\\
+ G(s) & = \frac{K}{\tau s + 1}\\
+ G(s) & = \frac{\frac{K}{\tau}}{s + ]frac{1}{\tau}}
+ G(s) &= \frac{0.63230}{s + (7.3507)*10^{-3}}\\
+ \end{align}
+ 
+The PI controller's transfer function is defined as follows such that $z = \frac{K_i}{K_c}$
+
+\begin{align}
+G_{c}(s) &= K_{c}+ \frac{K_{i}}{s}\\
+G_{c}(s) &= \frac{K_c s + K_i}{s}\\
+G_{c}(s) &= K_c\frac{s + z}{s}
+\end{align}
+
+Next, the transfer function of the entire system is calculated:
+first, find the product of G(s) and G_c(s):
+\begin{align}
+G(s)G_c(s) &= (\frac{0.63230}{s + (7.3507)*10^{-3}}).(K_c\frac{s + z}{s})\\
+\end{align}

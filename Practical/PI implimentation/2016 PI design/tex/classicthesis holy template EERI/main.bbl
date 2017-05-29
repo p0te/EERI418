@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{mackay2003information}
+D.~J. MacKay, {\em Information theory, inference, and learning algorithms},
+  vol.~7.
+\newblock Citeseer, 2003.
+
+\bibitem{moon2005error}
+T.~K. Moon, ``Error correction coding,'' {\em Mathematical Methods and
+  Algorithms. Jhon Wiley and Son}, 2005.
+
+\bibitem{forouzan2006data}
+A.~B. Forouzan, {\em Data Communications \& Networking (sie)}.
+\newblock Tata McGraw-Hill Education, 2006.
+
+\bibitem{hamming1950error}
+R.~W. Hamming, ``Error detecting and error correcting codes,'' {\em Bell System
+  technical journal}, vol.~29, no.~2, pp.~147--160, 1950.
+
+\end{thebibliography}
