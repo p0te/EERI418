@@ -4,11 +4,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Time Response of the DC motor\relax }}{4}{figure.caption.7}
-\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of time domain model with Laboratory results\relax }}{5}{figure.caption.8}
+\contentsline {figure}{\numberline {1}{\ignorespaces Time Response of the DC motor\relax }}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {2}{\ignorespaces Simulation of the time domain model compared with Laboratory results\relax }}{5}{figure.caption.7}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3}{\ignorespaces Plot of the transient response of the Caculated system\relax }}{8}{figure.caption.9}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4}{\ignorespaces Simulink Block diagram of the compensated plant simulation \relax }}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Plot of the transient response of the simulated system\relax }}{10}{figure.caption.12}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6}{\ignorespaces Practical measurement, transient step response\relax }}{11}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

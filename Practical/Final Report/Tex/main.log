@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  23 MAY 2017 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.22)  5 JUN 2017 10:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -475,6 +475,32 @@ Package hyperref Info: Option `hypertexnames' set `true' on input line 169.
 (c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+
+(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count134
+)
+\csq@reset=\count135
+\csq@gtype=\count136
+\csq@glevel=\count137
+\csq@qlevel=\count138
+\csq@maxlvl=\count139
+\csq@tshold=\count140
+\csq@ltx@everypar=\toks26
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
 (c:/texlive/2016/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2015/02/19 1.2 Put a gray textual watermark on document
  pages
@@ -529,18 +555,18 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen145
 \cmidrulekern=\dimen146
 \defaultaddspace=\dimen147
-\@cmidla=\count134
-\@cmidlb=\count135
+\@cmidla=\count141
+\@cmidlb=\count142
 \@aboverulesep=\dimen148
 \@belowrulesep=\dimen149
-\@thisruleclass=\count136
-\@lastruleclass=\count137
+\@thisruleclass=\count143
+\@lastruleclass=\count144
 \@thisrulewidth=\dimen150
 )
 (c:/texlive/2016/texmf-dist/tex/latex/ncctools/watermark.sty
 Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
 )
-\c@definition=\count138
+\c@definition=\count145
 
 (./classicthesis.sty
 Package: classicthesis 2011/12/17 v4.0 Typographic style for a classic-looking 
@@ -578,12 +604,12 @@ Package: eulervm 2005/01/11 v4.0 (WaS)
 )
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks26
-\MT@count=\count139
+\MT@toks=\toks27
+\MT@count=\count146
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen151
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count140
+\MT@listname@count=\count147
 
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
@@ -639,7 +665,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip83
 \ttl@plus=\dimen152
 \ttl@minus=\dimen153
-\ttl@toksa=\toks27
+\ttl@toksa=\toks28
 \titlewidth=\dimen154
 \titlewidthlast=\dimen155
 \titlewidthfirst=\dimen156
@@ -718,11 +744,11 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \newchnumberwidth=\skip126
 \figurelabelwidth=\skip127
 \tablelabelwidth=\skip128
-\c@listings=\count141
+\c@listings=\count148
 \cftbeforelistingsskip=\skip129
 \cftlistingsindent=\skip130
 \cftlistingsnumwidth=\skip131
-\c@loldepth=\count142
+\c@loldepth=\count149
 \cftbeforeloltitleskip=\skip132
 \cftafterloltitleskip=\skip133
 \listingslabelwidth=\skip134
@@ -751,9 +777,9 @@ e
 )))
 (c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count143
-\Gm@cntv=\count144
-\c@Gm@tempcnt=\count145
+\Gm@cnth=\count150
+\Gm@cntv=\count151
+\c@Gm@tempcnt=\count152
 \Gm@bindingoffset=\dimen157
 \Gm@wd@mp=\dimen158
 \Gm@odd@mp=\dimen159
@@ -762,11 +788,14 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen162
 \Gm@layouthoffset=\dimen163
 \Gm@layoutvoffset=\dimen164
-\Gm@dimlist=\toks28
-)) (./main.aux
-(./FrontBackMatter/Titlepage.aux) (./FrontBackMatter/Abstract.aux)
-(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Contents.aux)
-(./Chapters/Chapter01.aux) (./FrontBackMatter/Appendix/A.aux))
+\Gm@dimlist=\toks29
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+ (./main.aux
+(./FrontBackMatter/Titlepage.aux) (./FrontBackMatter/Declaration.aux)
+(./FrontBackMatter/Contents.aux) (./Chapters/Chapter01.aux)
+(./FrontBackMatter/Appendix/A.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -790,24 +819,24 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
+\scratchcounter=\count153
 \scratchdimen=\dimen165
 \scratchbox=\box33
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count149
+\nofMPsegments=\count154
+\nofMParguments=\count155
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count156
 \MPscratchDim=\dimen166
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
+\everyMPtoPDFconversion=\toks31
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count152
+\c@lstlisting=\count159
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 39.
  (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -816,7 +845,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count153
+\c@section@level=\count160
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
@@ -910,7 +939,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<frontpage.png, id=88, 597.1911pt x 844.8363pt>
+<frontpage.png, id=104, 597.1911pt x 844.8363pt>
 File: frontpage.png Graphic file (type png)
  <use frontpage.png>
 Package pdftex.def Info: frontpage.png used on input line 54.
@@ -922,24 +951,25 @@ Package pdftex.def Info: frontpage.png used on input line 54.
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./frontpage.png
 >])
-\openout2 = `FrontBackMatter/Abstract.aux'.
-
-
-(./FrontBackMatter/Abstract.tex) [2
-
-
-]
 \openout2 = `FrontBackMatter/Declaration.aux'.
 
- (./FrontBackMatter/Declaration.tex)
-[3
+
+(./FrontBackMatter/Declaration.tex
+<gfx/HandTekening.jpg, id=115, 224.7597pt x 253.6677pt>
+File: gfx/HandTekening.jpg Graphic file (type jpg)
+
+<use gfx/HandTekening.jpg>
+Package pdftex.def Info: gfx/HandTekening.jpg used on input line 24.
+(pdftex.def)             Requested size: 112.37956pt x 126.83353pt.
+) [2
 
 
 
-]
+ <./gfx/HandTekening.jpg>]
 \openout2 = `FrontBackMatter/Contents.aux'.
 
- (./FrontBackMatter/Contents.tex
+
+(./FrontBackMatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 14
 .
  (./main.toc
@@ -960,42 +990,20 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 34
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 36
 .
- (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 54.
-
-[4
+ (./main.lot [3
 
 
 
 
 
 ])
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 67.
- (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 54.
 )
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-<nwupotchlogo.png, id=148, 203.962pt x 57.013pt>
-File: nwupotchlogo.png Graphic file (type png)
- <use nwupotchlogo.png>
-Package pdftex.def Info: nwupotchlogo.png used on input line 67.
-(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.95pt): 
- Make it at least 32.58646pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./nwupotchlogo.png>]
+[4]
 \openout2 = `Chapters/Chapter01.aux'.
 
  (./Chapters/Chapter01.tex
@@ -1025,6 +1033,11 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ]
 chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
 [2
 
 ]
@@ -1037,17 +1050,17 @@ Package epstopdf Info: Source file: <gfx/Motor_shutoff.eps>
 (epstopdf)                    size: 33727 bytes
 (epstopdf)             Command: <epstopdf --outfile=gfx/Motor_shutoff-eps-conve
 rted-to.pdf gfx/Motor_shutoff.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<gfx/Motor_shutoff-eps-converted-to.pdf, id=173, 471.7625pt x 328.22626pt>
+<gfx/Motor_shutoff-eps-converted-to.pdf, id=207, 471.7625pt x 328.22626pt>
 File: gfx/Motor_shutoff-eps-converted-to.pdf Graphic file (type pdf)
 
 <use gfx/Motor_shutoff-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/Motor_shutoff-eps-converted-to.pdf used on input l
-ine 36.
+ine 57.
 (pdftex.def)             Requested size: 478.00516pt x 332.57266pt.
 
-Overfull \hbox (79.6665pt too wide) in paragraph at lines 36--37
+Overfull \hbox (79.6665pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
@@ -1057,6 +1070,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [3
 
 ]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 79.
+ (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+<nwupotchlogo.png, id=219, 203.962pt x 57.013pt>
+File: nwupotchlogo.png Graphic file (type png)
+ <use nwupotchlogo.png>
+Package pdftex.def Info: nwupotchlogo.png used on input line 79.
+(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.95pt): 
+ Make it at least 32.58646pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./nwupotchlogo.png> <./gfx/Motor_shutoff-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <gfx/Motor_shutoff_vs_Time_domain_model.eps
 >
 (epstopdf)                    date: 2017-05-23 19:13:24
@@ -1067,20 +1102,20 @@ Package epstopdf Info: Source file: <gfx/Motor_shutoff_vs_Time_domain_model.eps
 (epstopdf)                    size: 106543 bytes
 (epstopdf)             Command: <epstopdf --outfile=gfx/Motor_shutoff_vs_Time_d
 omain_model-eps-converted-to.pdf gfx/Motor_shutoff_vs_Time_domain_model.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-to.pdf, id=185, 471.7625p
+<gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-to.pdf, id=238, 471.7625p
 t x 328.22626pt>
 File: gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-to.pdf>
 Package pdftex.def Info: gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-t
-o.pdf used on input line 60.
+o.pdf used on input line 90.
 (pdftex.def)             Requested size: 478.00516pt x 332.57266pt.
 
-Overfull \hbox (79.6665pt too wide) in paragraph at lines 60--61
+Overfull \hbox (79.6665pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
@@ -1089,40 +1124,152 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: nwupotchlogo.png Graphic file (type png)
 <use nwupotchlogo.png>
-Package pdftex.def Info: nwupotchlogo.png used on input line 64.
-(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
- [4 <./gfx/Motor_shutoff-eps-converted-to.pdf>]
-File: nwupotchlogo.png Graphic file (type png)
-
-<use nwupotchlogo.png>
-Package pdftex.def Info: nwupotchlogo.png used on input line 90.
+Package pdftex.def Info: nwupotchlogo.png used on input line 118.
 (pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
  [5 <./gfx/Motor_shutoff_vs_Time_domain_model-eps-converted-to.pdf>]
 File: nwupotchlogo.png Graphic file (type png)
  <use nwupotchlogo.png>
-Package pdftex.def Info: nwupotchlogo.png used on input line 107.
+Package pdftex.def Info: nwupotchlogo.png used on input line 139.
 (pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
  [6]
 chapter 4.
-[7
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\zeta' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\omega' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Overfull \hbox (0.9197pt too wide) in paragraph at lines 156--157
+\T1/pplj/m/n/10.95 Reconciling the com-pen-sated trans-fer func-tion and de-sir
+ed trans-fer func-tion yields: 
+ []
+
+Package epstopdf Info: Source file: <gfx/calc_plot.eps>
+(epstopdf)                    date: 2017-06-01 16:18:22
+(epstopdf)                    size: 42588 bytes
+(epstopdf)             Output file: <gfx/calc_plot-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-01 16:20:31
+(epstopdf)                    size: 36522 bytes
+(epstopdf)             Command: <epstopdf --outfile=gfx/calc_plot-eps-converted
+-to.pdf gfx/calc_plot.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+<gfx/calc_plot-eps-converted-to.pdf, id=274, 438.63875pt x 274.02374pt>
+File: gfx/calc_plot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use gfx/calc_plot-eps-converted-to.pdf>
+Package pdftex.def Info: gfx/calc_plot-eps-converted-to.pdf used on input line 
+179.
+(pdftex.def)             Requested size: 278.83583pt x 174.19548pt.
+ [7
 
 ]
+File: nwupotchlogo.png Graphic file (type png)
+ <use nwupotchlogo.png>
+Package pdftex.def Info: nwupotchlogo.png used on input line 203.
+(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
+ [8 <./gfx/calc_plot-eps-converted-to.pdf>]
 chapter 5.
-[8
+<gfx/sim_Block_Diagram.pdf, id=316, 845.1575pt x 597.23125pt>
+File: gfx/sim_Block_Diagram.pdf Graphic file (type pdf)
 
-]
-chapter 6.
+<use gfx/sim_Block_Diagram.pdf>
+Package pdftex.def Info: gfx/sim_Block_Diagram.pdf used on input line 210.
+(pdftex.def)             Requested size: 398.33865pt x 281.49155pt.
+Package epstopdf Info: Source file: <gfx/sim_plot.eps>
+(epstopdf)                    date: 2017-06-01 16:20:09
+(epstopdf)                    size: 46325 bytes
+(epstopdf)             Output file: <gfx/sim_plot-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-01 16:20:33
+(epstopdf)                    size: 42817 bytes
+(epstopdf)             Command: <epstopdf --outfile=gfx/sim_plot-eps-converted-
+to.pdf gfx/sim_plot.eps>
+(epstopdf)             \includegraphics on input line 218.
+Package epstopdf Info: Output file is already uptodate.
+
+<gfx/sim_plot-eps-converted-to.pdf, id=320, 459.7175pt x 355.3275pt>
+File: gfx/sim_plot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use gfx/sim_plot-eps-converted-to.pdf>
+Package pdftex.def Info: gfx/sim_plot-eps-converted-to.pdf used on input line 2
+18.
+(pdftex.def)             Requested size: 278.83583pt x 215.52953pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [9
+
+ <./gfx/sim_Block_Diagram.pdf>]
+File: nwupotchlogo.png Graphic file (type png)
+ <use nwupotchlogo.png>
+Package pdftex.def Info: nwupotchlogo.png used on input line 241.
+(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
+ [10 <./gfx/sim_plot-eps-converted-to.pdf>]
+chapter 6.
+(./gnuplot/run_4_1.tex
+\plotpoint=\box35
+) [11
 
 ]
 chapter 7.
-[10
+[12
 
 ]
 chapter 8.
-) [11
+) [13
 
-] (./main.bbl) [12
+] (./main.bbl) [14
 
 
 ]
@@ -1135,54 +1282,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[13
+[15
 
 
 
 
 ]
 chapter 10.
-(./code_listings/smooth.py)) [14
+(./code_listings/smooth.py) (./code_listings/main.c
+LaTeX Font Info:    Try loading font information for OMS+pplj on input line 2.
+LaTeX Font Info:    No file OMSpplj.fd. on input line 2.
 
-]
+
+LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 2.
+
+[16
+
+]))
+File: nwupotchlogo.png Graphic file (type png)
+ <use nwupotchlogo.png>
+Package pdftex.def Info: nwupotchlogo.png used on input line 88.
+(pdftex.def)             Requested size: 101.98074pt x 28.50642pt.
+ [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (./main.aux (./FrontBackMatter/Titlepage.aux) (./FrontBackMatter/Abstract.aux)
- (./FrontBackMatter/Declaration.aux)
-(./FrontBackMatter/Contents.aux) (./Chapters/Chapter01.aux)
-(./FrontBackMatter/Appendix/A.aux))
+ (./main.aux (./FrontBackMatter/Titlepage.aux) (./FrontBackMatter/Declaration.a
+ux) (./FrontBackMatter/Contents.aux)
+(./Chapters/Chapter01.aux) (./FrontBackMatter/Appendix/A.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E945810293E5F29A9DE04433DDB90F46;1267.
+(rerunfilecheck)             Checksum: 45567C8314E73E0F95C2D19735C99FA3;1648.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 17261 strings out of 494902
- 265992 string characters out of 6180032
- 667694 words of memory out of 5000000
- 20057 multiletter control sequences out of 15000+600000
- 76242 words of font info for 128 fonts, out of 8000000 for 9000
+ 18399 strings out of 494902
+ 282853 string characters out of 6180032
+ 751113 words of memory out of 5000000
+ 21085 multiletter control sequences out of 15000+600000
+ 85772 words of font info for 146 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 46i,17n,66p,8817b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,17n,66p,8817b,1910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/eul
-er/eufm10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/euf
-m7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
-><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/fpl/fplrij8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/cm-super/sfsx0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/
-uplb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/
-texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 1074457 bytes).
+sfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/fpl/fplrij8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfs
+x0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/tex
+mf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 1328463 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 97 named destinations out of 1000 (max. 500000)
- 15037 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 22275 words of extra memory for PDF output out of 24883 (max. 10000000)
 
