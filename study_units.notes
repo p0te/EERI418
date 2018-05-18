@@ -1,0 +1,40 @@
+\chapter{LE1 State variable feedback systems}
+	\section{Controllability}
+	\section{Observability}
+	\section{Pole placement by means of state feedback}
+	\section{Ackerman'n formula}
+\chapter{LE2 Mathematical models of simple linear systems}
+\chapter{LE3 The Z transform}
+	\section{Discrete time systems}
+	\section{The Z transform definitions}
+	\section{Solution of difference eqns}
+	\section{Simulation diagrams}
+	\section{Signal flow diagrams}
+	\section{State models}
+	T/fer functions
+\chapter{LE4 Sampling and reconstruction}
+\chapter{LE5 Pulse transfer funcions for open loop systems}
+	\section{The relationship between E(z) and E*(s)}
+	\section{The pulse transfer function}
+	\section{Open loop system with a digital filter}
+	\section{The modified Z transform and time delays}
+\chapter{LE6 Pulse transfer funcions for closed loop systems}
+\chapter{LE7 Time response charachteristics of discrete time systems}
+	\section{Discrete system time response}
+	\section{System charachteristics}
+	\section{equation}
+	\section{Mapping of s to z plane}
+\chapter{LE8 Stability of digital systems}
+	\section{Stability}
+	\section{Bi-linear transfromation end routh herwitz}
+	\section{Jury stability}
+	\section{The root locus}
+	\section{The bode diagram}
+\chapter{LE9 Digital controllers}
+	\section{Phase lag compensation}
+	\section{Phase lead compensation}
+	\section{Lead-lag compensastion}
+	\section{PID control}
+\chapter{LE10 Neural networks and fuzzy logic}
+	
+

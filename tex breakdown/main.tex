@@ -1,0 +1,453 @@
+\documentclass{report}
+\usepackage{multicol} 
+\usepackage{amsmath} 
+\usepackage{tipa} 
+\renewcommand{\chaptername}{Study Unit}
+\begin{document}
+\chapter{LE1 State variable feedback systems}
+	\section{sums}
+\begin{itemize}
+		\begin{multicols}{3}
+	\item E11.3
+	\item E11.5
+	\item P11.1
+	\item P11.14
+	\item P11.16
+	\item AP11.1 
+	\item AP11.3
+	\end{multicols}
+	
+\end{itemize}
+	\section{refreser on mason's formula}
+	\label{sec:refreser on mason's formula}
+	Used to convert a signal flow diagram into a transfer function. 
+	\begin{itemize}
+		\item Determine forward paths
+		\item Determine loops
+	\end{itemize}
+	\begin{align*}
+		\label{eq:}
+		G = \frac{y_{out}}{y_{in}} &= \frac{\sum^{N}_{k=1}G_k\Delta_k}{\Delta} \\
+		\Delta &= 1 - \sum L_{i: \text{all loops}} + \sum L_{i}L_{j \text{( 2 loops not touching)}}\\
+		\Delta_k &= \text{Delta for fwd path k, with loops touching this path removed}\\
+		G_k &= \text{Path gain for forward path k}\
+	\end{align*}
+	\section{Controllability}
+	\label{sub:controllability}
+{\bf Formal Defenition of controllability:}\emph{A system is completely controllable if there exists an unconstrained control u(t) that can transfer any initial state $x(t_0)$ To any other desired location $x(t)$ in a finite time $t_0 \leq t \leq T$}\\
+Controllability and observability are requirements for a system, so that all the poles of the colesd loop system can be arbitrarily placed in the complex plane.\\
+For the system:
+\begin{align*}
+\dot{\mathbf{x}} = \mathbf{Ax+B}u	
+\end{align*}
+we can determine the controllability using the algebraic condition:
+\begin{align*}
+rank[\mathbf{B \quad AB \quad A^2B \ldots A^{n-1}B }] = n	
+\end{align*}
+Where $\mathbf{A}$ is a $n \times n$ matrix and $\mathbf{B}$ is an $n \times 1$ matrix for single input systems, or $n \times m$ for multi input systems.
+For the case of a single input single output system: define
+\begin{align*}
+\mathbf{P_c = [\mathbf{B \quad AB \quad A^2B \ldots A^{n-1}B }]}	
+\end{align*}
+Which is an $n \times n$ matrix. If the determinanat of $\mathbf{P_c}$ is nonzero, the system is controllable\\
+
+
+% subsection controllability (end)
+
+	\section{Observability}
+
+\label{sub:observability}
+{\bf Formal Defenition of observability:}\emph{A system is completely observable if and only if there exists a finite time T such that the intial state $x(0)$ can be determined from the observation history $y(t)$ given the control $u(t), 0 \leq t \leq T$}\\
+Considder the single-input, single-output system:
+\begin{align*}
+\mathbf{\dot{x} = Ax +B}u \quad and \quad y = \mathbf{Cx}	
+\end{align*}
+Where $\mathbf{C}$ is a $1 \times n$ row vector and $\mathbf{x}$ is a $n \times 1$ column vector. The system is completely observable when the determinant of the {\bf observability matrix$\mathbf{P_O}$} is nonzero when:
+\begin{align*}
+\mathbf{P_O} = \left[ 	\begin{matrix}
+ 		\mathbf{C}\\\mathbf{CA}\\ \vdots \\\mathbf{CA^{n-1}}
+ 	\end{matrix}
+ 	\right]
+ \end{align*} 
+ Which is an $n \times n$ matrix
+
+
+
+
+	\section{Pole placement by means of state feedback}
+% subsection observability (end)
+\label{sub:pole_placement}
+Remember from algerbra 2 that if a set of differential equations in the form $\mathbf{x'} = A\mathbf{x}$ then the time response of the system is given by $\mathbf{x}(t) = \mathbf{v}e^{\lambda t}$
+% subsection ploe_placement (end)
+	\section{Ackerman'n formula}
+
+\label{sub:ackerman_s_equation}
+
+Way to calculate K with less variables. Set $u = -k\mathbf{x}$ and let $q(\lambda)$ be the desired charachteristic eqn. (as dictated by P.O ans Ts) then:
+\begin{align*}
+	\mathbf{k} &= [0 0 \dots 1]\mathbf{P_c}^{-1}q(A);
+\end{align*}
+Type A into calculator and apply q(A). Multiply [0 1] first since this is easier
+% subsection ackerman_s_equation (end)
+
+\chapter{LE2 Mathematical models of simple linear systems}
+	\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+	\item 1-1
+	\item 1-2
+	\item 1-3
+	\item 1-4
+	\item 1-6
+	\item 1-7
+	\item 1-12
+	\end{multicols}
+	
+\end{itemize}
+\chapter{LE3 The Z transform}
+	\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+	\item 2-1
+	\item 2-2
+	\item 2-3
+	\item 2-4
+	\item 2-6
+	\item 2-7
+	\item 2-9(a,c)
+	\item 2-11
+	\item 2-12
+	\item 2-14
+	\item 2-16
+	\item 2-17
+	\item 2-18
+	\item 2-19
+	\item 2-23
+	\item 2-24
+	\item 2-25
+	\item 2-28
+	\item 2-31
+	\item 2-32
+	\end{multicols}{3}
+	
+\end{itemize}
+\section{Refresher on Mason's rule}
+
+\verb|https://en.wikipedia.org/wiki/Mason's_gain_formula}|
+Type this out if you have some time later\dots
+\subsection{Discrete Time} % (fold)
+\label{sub:discrete_time}
+
+% subsection discrete_time (end)
+\subsection{refresher on partial fractions}
+\begin{align*}
+	T(z) &=  \frac{z}{(z+a)(z+b)(z+c)}\\
+	T(z) &= \frac{A}{z+a} + \frac{B}{z+b} + \frac{C}{z+c}\\
+	A &=  \frac{z}{(z+b)(z+c)} \bigg\rvert_{z=-a}\\
+	B &=  \frac{z}{(z+a)(z+c)} \bigg\rvert_{z=-b}\\
+	C &=  \frac{z}{(z+a)(z+b)} \bigg\rvert_{z=-c}\\
+\end{align*}
+\section{Properties of the Z transform}
+\label{sub:Properties of the Z transform}
+\subsection{Additition and subtraction}
+\begin{align*}
+	\text{\textctyogh}[e_1(k) \pm e_2(k)] = E_1(z) \pm E_2(Z)\\
+\end{align*}
+\subsection{Multiplication by a constant}
+\begin{align*}
+	\text{\textctyogh}[ae(k)] = a\zeta[e(k)] = aE(z)\\
+\end{align*}
+\subsection{Real translation}
+\begin{align*}
+	\text{\textctyogh}[e(k-n)u(k-n)] = z^{-n} E(z)\\
+\end{align*}
+\subsection{Complex translation}
+\begin{align*}
+	\text{\textctyogh}[\epsilon^{ak}e(k)] = E(z\epsilon^{-a})
+\end{align*}
+\subsection{Initial Value}
+\begin{align*}
+	e(0) = \lim_{z \to \infty}E(z)
+\end{align*}
+\subsection{Final Value}
+\begin{align*}
+	\lim_{n \to \infty} = \lim_{z \to 1}(z-1)E(z)
+\end{align*}
+
+
+
+% subsection properties_of_the_z_transform (end)
+\section{Difference equations} % (fold)
+NOTE!!!! study the following methods, power series was asked in ST1.
+\begin{itemize}
+	\item Classical approach
+	\item sequential procedure
+	\item Z-transform
+		\subitem Power series method
+		\subitem Partial Fraction Method
+		\subitem Inversion formula Method
+		\subitem Discrete convolution
+\end{itemize}
+\label{sub:difference_equations}
+\begin{itemize}
+	\item The unit step function transforms to $\frac{z}{z-1} $
+	\item The unit step function is delayed in one example in the textbook and transforms to $\frac{z}{z-1} $:
+		\begin{align*}
+			Z\{\delta(k-1) \} &= z^{-1}\frac{z}{z-1}\\
+			Z\{\delta(k-1) \} &= \frac{1}{z-1}\\
+		\end{align*}
+	\item most other transforms are in the form $c\frac{z}{z-a}$ and they transform to $ca^k$ 
+	\item The transform of a shifted series is in the form:
+		\begin{align*}
+			Z\{e(k+n)u(k)\} &= z^n\left[E(Z) - \sum_{k=0}^{n-1}e(k)z^{-k}\right]\\
+			&e.g.\\
+			Z\{e(k-2)u(k)\} &= z^{-2}E(z) - ze(1) - ze(0)\\
+		\end{align*}
+	\item sometimes the initial conditions are made zero, which makes:
+		\begin{align*}
+			Z\{e(k+n)u(k)\} &=z^nE(z)\\
+			&also:\\
+			Z\{e(k+n)u(k+n)\} &=z^nE(z)\\
+			&\text{Regardless of initial conditions}
+		\end{align*}
+	\item In some cases zero initial conditions are assuumed, but I may be confused		
+	\item So:
+	\subitem Compute Z transforms 
+	\subitem Factorize and isolate the appropriate function (usually X(z) or Y(z))
+	\subitem Apply partial fractions 
+	\subitem Compute inverse Z transforms to get a function of k
+\end{itemize}
+% subsection difference_equations (end)
+\section{Simulation diagram, signal flow diagrams \& State models} % (fold)
+\label{sub:simulation_diagram_signal_flow_diagrams_state_models}
+Basically the same as in control 1. The symbol `T` means a delay: $x(k) \to [T] \to x(k-1)$ Mason's rule can be applied and state space models are derived in the same way.
+% subsection simulation_diagram_signal_flow_diagrams_state_models (end)
+\section{Transfer Functions} % (fold)
+\label{sub:transfer_functions}
+Trasfer functions are a function of Z, and can be derived from the difference equation using the Z transform. In signal flow diagrams, [T] besomes $\frac{1}{z}$
+
+% subsection transfer_functions (end)
+\chapter{LE4 Sampling and reconstruction}
+	\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+	\item 3-3
+	\item 3-4(a,b)
+	\item 3-5
+	\item 3-8
+	\item 3-9
+	\item 3-12
+	\item 3-13
+	\item 3-20
+	\item 3-22
+	\end{multicols}
+	
+\end{itemize}
+\section{difintion of the star transform}
+\emph{section 3.3, examples 3.1 and 3.2 are NB}
+\begin{align*}
+	E^*(s) &= \sum^{\infty}_{n=0} e(nT)\epsilon^{-nTs}
+\end{align*}
+\section{Properties of $E^*(s)$}
+\subsection{Property 1: E*(s) is periodic in s with period $j\omega$}
+\begin{align*}
+	E^*(s+jm\omega_s) &= \sum^{\infty}_{n=0} e(nT)\epsilon^{-nTs}&= E^*(s)
+\end{align*}
+\subsection{Property 2: if $E(S)$ has a pole at $s = s_1$, then $E^*(s)$ must have poles at $s = s_1 + jm\omega_s,m = 0, \pm 1, \pm 2 \ldots$}
+\subsection{Shannon's sampling theorem}
+A function of time $e(t)$ which contains no
+frequency components greater than $f_o$ hertz is uniquely determined by the values of
+$e(t)$ at any set of sampling points spaced $1/(2f_0 )$ seconds apart
+\chapter{LE5 Pulse transfer functions for open loop systems}
+	\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+	\item 4-1  
+	\item 4-2
+	\item 4-3 
+	\item 4-4
+	\item 4-6
+	\item 4-9
+	\item 4-11
+	\item 4-13
+	\item 4-14
+	\item 4-15
+	\item 4-16
+	\item 4-18
+	\item 4-24
+	\end{multicols}
+	
+\end{itemize}
+\section{z-transfrom methods(study each)}
+\begin{itemize}
+	\item power series method
+	\item partial fraction method
+	\item inversion formula
+	\item discrete convolution
+\end{itemize}
+	\section{The relationship between E(z) and E*(s)}
+	\emph{example 4.1, 4.2 and 4.3 are important, you should be able to calc the DC gain of a system}
+	\begin{align*}
+	\text{\textctyogh}[e_k)] = E(z) &= e(0) + e(1)z^{-1} + e(2)z^{-2} \ldots\\
+	 E^*(s) &= e(0) + e(T)\epsilon^{-Ts} + e(2T)\epsilon^{-2Ts} \ldots\\
+	 E(z) &=  E^*(s) \lvert_{\epsilon^{sT} = z}
+	\end{align*}
+	\section{The pulse transfer function}
+	\emph{example 4.4 is important}
+	\section{Open loop system with a digital filter}
+	\section{The modified Z transform and time delays}
+	\section{Deriving the sampled output from a block diagram}
+	\begin{description}
+		\item[Step 1] Construct the original Signal flow diagram, replace samplers(similar to a switch) with open circuits, since they cannot be expressed in a SF diagram. 
+		\item[Step 2] Assign a Variable to each sampler input. The output is the input starred.(Typically $E_n - E^*_n, n = 1,2,3 \ldots$ is used) 
+		\item[Step 3] 
+			\subitem Consider each sampler output a system input
+			\subitem Consider each sampler input a system output
+			\subitem Write each output as a function of the system inputs
+		\item[Step 4] Take the starred transform of each of these equations and solve by any convenient method. Draw the sampled signal flow diagram
+	\end{description}
+\chapter{LE6 Pulse transfer funcions for closed loop systems}
+\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+	\item 5-1 
+	\item 5-2
+	\item 5-3
+	\item 5-4
+	\item 5-6
+	\item 5-9
+	\item 5-11
+	\item 5-14
+	\item 5-16
+	\end{multicols}
+	
+\end{itemize}
+
+\chapter{LE7 Time response charachteristics of discrete time systems}
+\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+		\item 6-1
+		\item 6-2
+		\item 6-4
+		\item 6-6
+		\item 6-10
+		\item 6-12
+		\item 6-15
+		\item 6-19
+
+	\end{multicols}
+	
+\end{itemize}
+
+	\section{Discrete system time response}
+	\section{System charachteristics}
+	\section{equation}
+	\section{Mapping of s to z plane}
+\chapter{LE8 Stability of digital systems}
+\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+		\item 7-2
+		\item 7-3
+		\item 7-4
+		\item 7-6
+		\item 7-7
+		\item 7-8
+		\item 7-12
+		\item 7-20
+		\item 7-21
+		\item 7-22item 
+
+	\end{multicols}
+	
+\end{itemize}
+
+	\section{Stability}
+	\section{Bi-linear transfromation end routh herwitz}
+	\section{Jury stability}
+	\section{The root locus}
+	\section{The bode diagram}
+\chapter{LE9 Digital controllers}
+\section{sums}
+\begin{itemize}
+	\begin{multicols}{3}
+		\item 8-1
+		\item 8-2
+		\item 8-8
+		\item 8-9
+		\item 8-24
+		\item 8-25
+		\item 8-26
+		\item 8-27
+		\item 8-28
+	\end{multicols}
+	
+\end{itemize}
+
+	\section{Phase lag compensation}
+	\section{Phase lead compensation}
+	\section{Lead-lag compensastion}
+	\section{PID control}
+
+	
+
+	
+	
+
+\chapter{LE10 Neural networks and fuzzy logic}
+\section{Artificial Neural Networks}
+\subsection{Origin}
+\begin{itemize}
+	\item{Based on the concept of a human brain}
+	\item{Uses many, interconnected neurons} 
+	\item {Developed in an attempt to replicate biological learning}
+	]i
+\end{itemize}
+\subsection{Functionality}
+\begin{itemize}
+	\item Networks Useful for:
+		\subitem Multivariable; 
+		\subitem Time varying;
+		\subitem Nonlinear systems
+	\item Can predict outcomes using a test set. 
+\end{itemize}
+\subsection{structure}
+Usually consists of an input layer, hidden layers and an output layer. Weights are indexed by layer and neuron. This multidimensional vector of weights is what is optimized. 
+Complex behavior is best modeled using a large amount of simple neurons, while simple behavior is best moddeled using a large number of simple ones. 
+\subsection{Training}
+Training is accomplished by optimizing the weight vector so that a series of inputs result in an output with a minimum error compared to the data associated with the input. This is known as the training set, and care must be taken to avoid bias caused by training the system with a spesific dataset in mind. 
+%concept of 
+%concept of gradient descent
+%back propagation
+\begin{description}
+	\item[Training a single neuron] Is an example of linear regression and can be done analytically, the system as a whole, however is not linear
+	\item[Gradient Descent] Defining the error as a function, change the weights to move in the direction of biggest downward gradient until the gradient is zero. Randomization can be advantageous, but the algorithm could return a local minimum. The gradient is computed by taking the numeric partial derivative for a small change in a given weight. 
+	\item[random weights] Reliable, avoids user bias and getting stuck in local minima. Does not find the global minimum on its own.
+	\item[Genetic algorithms] Defines the effect of a weight change as a 'mutation', and can use this info to iterate weights more predictably
+	\item[Back propagation algorithm] The error is computed and fed into the system. 
+\end{description}
+\section{Fuzzy Logic}
+This branch of soft computing enables digital operations on values that have degrees of uncertainty. These variables are best described linguistically, for example 'warm' or 'tall'. These computations are achieved using Fuzzy sets, and Fuzzy rule bases. Fuzzy sets are logical sets (Think Venn diagram) that allow a value to belong to a set in degrees. This definition of the data is then used to apply a set of fuzzy rules, best described as if-then statements. Some variations of fuzzy logic accept or output numerical data, but they all combine numeric data(the rule base) and linguistic data(the fuzzy set)
+\subsection{Origin}
+Fuzzy logic was first popularized in the east, and to this day most of the advances in the field are made in japan, China and India. In eastern culture, the concept of uncertainty does not have as negative a connotation and the system was developed to quantify degrees of uncertainty. As with other forms of soft computing, fuzzy logic can be optimized using data sets, which if often easier than optimizing a model from first principles.
+\subsection{Structure}
+Three structures are mentioned in the notes:
+\begin{description}
+	\item[Pure fuzzy logic system] Both inputs and outputs are fuzzy sets
+	\item[Takagi \& Sugeno] Input is a fuzzy set, output is a numerical function
+	\item[Fuzzifier/Defuzzifier] numerical input and output, is converted before and after going through a pure fuzzy system.
+\end{description}
+\subsection{Functionality}
+Used extensively in control systems. The notes refer to:
+\begin{itemize}
+	\item Videography
+	\item Air conditioning
+	\item Washing machines
+	\item Train schedules
+\end{itemize}
+The advantages of soft computing hold, so it can be used for nonlinear, multivariable, time variant systems. 
+\subsection{Training}
+A fuzzy dataset is chosen as the training set. A rule base is defined, and then refined to match the dataset. The system should then predict the outcomes of similar data with a degree of accuracy.
+\end{document}
+
